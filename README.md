@@ -1,0 +1,1 @@
+gcloud builds submit --tag gcr.io/ecstatic-memory-416205/

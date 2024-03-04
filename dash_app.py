@@ -4,9 +4,6 @@ import plotly.express as px
 import plotly.graph_objs as go
 import networkx as nx
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.cm import viridis
 
 df = pd.read_csv("Combined.csv")
 duration_mins_secs = [
@@ -1199,4 +1196,4 @@ app.layout = dbc.Container(
 )
 
 if __name__ == "__main__":
-    app.run_server(port=8080, debug=True)
+    app.run_server(port=8080)
